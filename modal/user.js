@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 const UsersSchema = new mongoose.Schema({
-   Imageurl:String,
-   itemname:String,
-   itemsize:Number,
+  name:String,
+  price:Number,
+  productImage:String
 
 });
 
